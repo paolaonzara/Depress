@@ -61,7 +61,10 @@ paleta de cor{
 
   .nav-bar-color{
     background-color:#882b47 ;
+    transition: background-color 0.3s ease;
   }
+  
+  
   
   h1 {
     color: #ffffff;
@@ -69,12 +72,12 @@ paleta de cor{
   
 
   footer {
-    position: fixed;
+    position: fixed; /* Torna o footer fixo */
     width: 100%;
-    bottom: 0;
+    bottom: 0; /* Posiciona o footer na parte inferior */
     background-color:#882b47;
   }
-  
+
   /* Espaçamento do conteúdo de acordo com a altura da navbar */
   .container {
     padding-top: calc(100px + 1rem); /* Ajuste baseado no tamanho da navbar */
@@ -104,6 +107,14 @@ paleta de cor{
     padding-bottom: 25%;
   }
 
-  .pagina{
+  .pagina-inicial-1{
     background-color:#e07192;
+    margin-top: 10%;
+    padding-bottom: 25%;
+  }
+
+  .pagina-inicial-2{
+    background-color: #fbb1bd;
+    padding-top: 10%;
+    padding-bottom: 25%;
   }
