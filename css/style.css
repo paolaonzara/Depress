@@ -1,0 +1,213 @@
+paleta de cor{
+    color: #fae0e4;
+    color: #fac5d0;
+    color: #fbb1bd;
+    color: #ff85a1;
+    color: #ff7096;
+    color: #ff5c8a;
+    color: #ff477e;
+    color: #ff0a54;
+
+    color:#ff88ac;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Cor dos links */
+    transition: color 0.3s ease; /* Transição suave para quando passar o mouse */
+  }
+  
+.navbar-nav .nav-link:hover {
+    color: #ff7ea5; /* Cor dos links quando o mouse estiver sobre eles */
+  }
+  
+  
+/* Animação suave no texto de boas-vindas */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .animate-fade-content {
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #882b47;
+    color: #ffffff;
+    padding-bottom: 60px; /* Para evitar que o rodapé sobreponha o conteúdo */
+  }
+
+  .nav-bar-color{
+    background-color:#882b47 ;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+
+  footer {
+    width: 100%;
+    bottom: 0; /* Posiciona o footer na parte inferior */
+    background-color:#882b47;
+    text-align: center;
+    padding: 20px;
+    display: none;
+  }
+  
+
+  /* Espaçamento do conteúdo de acordo com a altura da navbar */
+  .container {
+    padding-top: calc(100px + 1rem); /* Ajuste baseado no tamanho da navbar */
+  }
+  
+  /* Responsividade para dispositivos móveis */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .container {
+      padding-top: calc(100px + 2rem); /* Aumenta o espaçamento em telas menores */
+    }
+  }
+  
+  section{
+    padding: 5%;
+  }
+
+  .pagina-inicial{
+    margin-top: 10%;
+    padding-bottom: 25%;
+  }
+
+  .pagina-inicial-1{
+    background-color:#e07192;
+    margin-top: 10%;
+    padding-bottom: 25%;
+  }
+
+  .pagina-inicial-2{
+    background-color: #882b47;
+    padding-top: 10%;
+    padding-bottom: 25%;
+  }
+
+  .pagina-content{
+    margin-top: 5%;
+
+  }
+
+
+
+
+
+   /* Mulheres Importantes*/
+.profile-header {
+  background-color: #882b47;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); }
+
+.profile-card {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); }
+
+.icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.progress-bar-custom {
+  background-color: #6c757d;
+}
+
+.progress-color1{
+  background-color: #ff477e;
+}
+
+.progress-color2{
+  background-color: #f11a5b;
+}
+
+.btn-color{
+  background-color: #b83d62;
+}
+
+.btn-color:hover{ 
+  background-color: #5a182c;
+}
+
+
+.game-section {
+  background-color: #882b47; /* Cor de fundo */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.game-description {
+  font-size: 16px; /* Tamanho da descrição */
+  margin: 20px 0; /* Margem entre a descrição e o botão */
+}
+
+.btn-color {
+  background-color: #ff85a1; /* Cor do botão */
+  border: none; /* Remove borda padrão */
+  transition: background-color 0.3s;
+}
+
+.btn-color:hover {
+  background-color: #ff7096; /* Cor do botão ao passar o mouse */
+}
+
+.icon {
+  color: #ff85a1; /* Cor rosa */
+}
+
+
+  
