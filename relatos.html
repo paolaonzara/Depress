@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/style.css" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -54,7 +58,7 @@
 </header>
 
 <main>
-<section class="pagina-inicial">
+<section class="pagina-content">
     <div class="container mt-5 pt-5">
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Relatos e Pesquisa</h1>
@@ -65,13 +69,13 @@
     </div>
   </section>
 
-  <section class="pagina-inicial-1">
+  <section class="pagina-content">
     <div class="container mt-5 pt-5">
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Nuvem de Palavras</h1>
     
-        <div class="row">
-            <div class="col-md-6"><p class="lead pnuvem">Nossa nuvem mostra as palavras mais usadas pelas mulheres nas respostas do nosso formulário.
+        <div class="row contcard">
+            <div class="col-md-6 grdcentro"><p class="lead pnuvem">Nossa nuvem mostra as palavras mais usadas pelas mulheres nas respostas do nosso formulário.
                 Essa nuvem foi desenvolvida com um código Python, com base no resultado de nossa pesquisa, levando em conta todas as respostas recebidas.
             </p>
             </div>
@@ -81,7 +85,7 @@
     </div>
   </section>
 
-  <section class="pagina-inicial-2">
+  <section class="pagina-content">
     <div class="container mt-5 pt-5">
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Gráficos</h1>
@@ -119,12 +123,13 @@
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Destaques</h1>
         <p class="lead">Selecionamos alguns relatos pessoais que consideramos marcantes e que representam de forma geral as respostas que recebemos durante a pesquisa: </p>
-        <div class="container text-center">
+        <div class="container text-center containerdest">
+
           <div class="row">
             
-            <div class="col-md-6">
+            <div class="col-md-6 coldest">
               <h5>Se puder, fale como as pré definições do que é de tal gênero, do que deve ser de menino ou de menina, te afetaram.</h5>
-              <div class="card">
+              <div class="card carddest">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item cardli">"Acredito que isso me faz acreditar menos no meu potencial."
                 </li>
@@ -136,9 +141,9 @@
               </ul>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 coldest">
               <h5>Por que acha que os meninos são desde cedo mais influenciados a seguir em áreas de exatas, ciências e tecnologia do que meninas?</h5>
-              <div class="card">
+              <div class="card carddest">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item cardli">"Acredito que a sociedade determina que os homens são mais capazes de seguir nessas áreas do que as mulheres."
                 </li>
@@ -156,7 +161,6 @@
   </section>
 
 </main>
-
 
   <!-- Footer fixo -->
   <footer class=" text-white text-center py-3">
