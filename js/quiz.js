@@ -143,17 +143,17 @@ function showResultBox(){
     result_box.classList.add("activeResult");
     const scoreText = result_box.querySelector(".score_text");
     if(userScore > 3){
-        let scoreTag = '<span> Parabens! You got <p>'+ userScore+ '</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> Parabens! Você acertou <p>'+ userScore+ '</p> de <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 
     else if(userScore > 1){
-        let scoreTag = '<span> Parabens! You got <p>'+ userScore+ '</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> Parabens! Você acertou <p>'+ userScore+ '</p> de <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 
     else{
-        let scoreTag = '<span> Tente de novo! You got <p>'+ userScore+ '</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> Tente de novo! Você acertou <p>'+ userScore+ '</p> de <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 

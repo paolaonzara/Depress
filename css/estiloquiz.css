@@ -452,15 +452,72 @@ footer .next_btn:hover{
 }
 
 
+/* Responsividade do Quiz */
+@media (max-width: 768px) {
+  .start_btn button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
 
+  .info_box, .quiz_box, .result_box {
+    width: 90%; /* Reduz a largura para caber melhor em telas pequenas */
+  }
 
+  .quiz_box section .que_text {
+    font-size: 20px; /* Ajusta o tamanho da fonte */
+  }
 
+  .option_list .option {
+    padding: 10px 15px; /* Reduz o padding das opções */
+  }
 
+  .buttons button {
+    width: 100%; /* Botões ocupam a largura total */
+    margin: 5px 0; /* Espaçamento vertical */
+  }
 
+  footer .next_btn {
+    width: 100%; /* Largura total para o botão de próxima pergunta */
+  }
+}
 
+@media (max-width: 576px) {
+  .quiz_box, .result_box, .info_box {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
 
+/* Responsividade para botões em telas menores */
+@media (max-width: 768px) {
+  footer .next_btn {
+    width: auto;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 5px;
+  }
 
+  .result_box .buttons button.restart,
+  .result_box .buttons button.quit {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
 
+@media (max-width: 480px) {
+  footer .next_btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .result_box .buttons button.restart,
+  .result_box .buttons button.quit {
+    font-size: 12px;
+    padding: 8px 0;
+    white-space: nowrap; /* Garante que o texto não quebra */
+  }
+}
 
 
 .text{
