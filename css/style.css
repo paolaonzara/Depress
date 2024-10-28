@@ -11,6 +11,8 @@ paleta de cor{
     color:#ff88ac;
 }
 
+/* menu */
+
 .navbar-nav .nav-link {
     color: #ffffff; /* Cor dos links */
     transition: color 0.3s ease; /* Transição suave para quando passar o mouse */
@@ -19,6 +21,13 @@ paleta de cor{
 .navbar-nav .nav-link:hover {
     color: #ff7ea5; /* Cor dos links quando o mouse estiver sobre eles */
   }
+
+.nav-bar-color{
+  background-color:#882b47 ;
+  transition: background-color 0.3s ease;
+}
+    
+    
   
   
 /* Animação suave no texto de boas-vindas */
@@ -44,6 +53,32 @@ paleta de cor{
     }
   }
 
+
+/* Espaçamento do conteúdo de acordo com a altura da navbar */
+
+.container {
+  padding-top: calc(100px + 1rem); /* Ajuste baseado no tamanho da navbar */
+}
+  
+
+/* Responsividade para dispositivos móveis */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  .container {
+    padding-top: calc(100px + 2rem); /* Aumenta o espaçamento em telas menores */
+  }
+}
+
+/* ícone  */
+
 .scroll-down {
   position: absolute;
   bottom: 20px;
@@ -60,6 +95,7 @@ paleta de cor{
   width: 200%;
 }
   
+
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
@@ -77,8 +113,9 @@ paleta de cor{
   .bi{
     display: none;
   }
-
 }
+
+
 .animate-fade {
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -87,19 +124,13 @@ paleta de cor{
   animation: fadeInUp 2s ease-in-out;
 }
   
+
 body {
   font-family:"Wix Madefor Display", sans-serif;
   background-color: #882b47;
   color: #ffffff;
 }
 
-.nav-bar-color{
-  background-color:#882b47 ;
-  transition: background-color 0.3s ease;
-}
-  
-  
-  
 h1 {
   color: #ffffff;
   font-weight: bolder;
@@ -107,46 +138,41 @@ h1 {
 
 .jogos_titulo{
   margin-bottom: 10%;
-
 }
   
+
+/* rodapé */
 
 footer {
   width: 100%;
   bottom: 0; /* Posiciona o footer na parte inferior */
-  background-color:#8a0f32;
-  text-align: center;
+  background-color:#882b47;
   padding: 20px;
   display: block;
 }
-  
+
 .imgfooter{
-  width: 20%;
+  width: 70%;
   display: flex;
-  align-items: left;
+  justify-content: left; 
+  height: auto;
+}
+
+.rowfooter{
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: left;
+  
+}
+
+.contfooter{
+  padding-top: 2%;
+  margin-left: 0%;
 }
 
 
-/* Espaçamento do conteúdo de acordo com a altura da navbar */
-.container {
-  padding-top: calc(100px + 1rem); /* Ajuste baseado no tamanho da navbar */
-}
-  
-/* Responsividade para dispositivos móveis */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  
-  p {
-    font-size: 1rem;
-  }
-  
-  .container {
-    padding-top: calc(100px + 2rem); /* Aumenta o espaçamento em telas menores */
-  }
-}
-  
+/* sessões */
+
 section{
   padding: 5%;
 }
@@ -170,7 +196,6 @@ section{
 
 .pagina-content{
   margin-top: 4%;
-
 }
 
 
@@ -255,8 +280,8 @@ section{
 }
 
 
- /* página relatos */
-
+ /*relatos */
+  
 .pnuvem{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
@@ -286,14 +311,13 @@ section{
 .imggrafico{
   width: 100%;
   transition: transform 0.2s ease-in-out;
-
 }
+
 .colgrafico:hover{
   transform: scale(1.40);
   background-color: #882b47;
   border-radius: 8px;
   border: 1px solid#53182a;
-
 }
 
 .colgraf2:hover{
@@ -301,19 +325,15 @@ section{
   background-color: #882b47;
   border-radius: 8px;
   border: 1px solid#53182a;
-
-
 }
+
 .colgrafico{
   transition: transform 0.2s ease-in-out;
-
 }
 
 .pgrafico{
   padding: 2%;
 }
-
-
 
 .contcard{
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -321,7 +341,6 @@ section{
   border-radius: 8px;
   border: 1px solid#53182a;
   margin-top: 2%;
-  
 }
 
 .containertop{
@@ -335,15 +354,13 @@ section{
   padding: 3%;
   max-width: 100%;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-    
+  transition: transform 0.2s ease-in-out; 
 }
 
 .cardli{
   background-color: #ffe0e9; 
   border: 1px solid #ff99b8; 
   transition: background-color 0.3s ease, transform 0.2s ease; /* Aplica uma transição na cor de fundo e no tamanho */
-    
 }
 
 .carddest:hover {
@@ -473,15 +490,41 @@ section{
 
 
 
-
-
-
-
-
-
 .text{
   color: black;
 }
 
 
+/* como os pais devem lidar com o sexismo */
+
+
+.balaocoment {
+  position: relative;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  max-width: 80%;
+}
+
+.balaocoment::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #f0f0f0;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -5px;
+  margin-bottom: -10px;
+}
+
+.balaocoment p {
+  margin: 0;
+  font-style: italic;
+  color: #555;
+}
 
