@@ -43,7 +43,42 @@ paleta de cor{
       transform: translateY(0);
     }
   }
+
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  left: 53%;
+  transform: translateX(-500%);
+  cursor: pointer;
+}
   
+
+.bi {
+  font-size: 1rem;
+  animation: bounce 2s infinite;
+  height: 20%;
+  width: 200%;
+}
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+
+@media (max-width: 1288px){
+  .bi{
+    display: none;
+  }
+
+}
 .animate-fade {
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -56,7 +91,6 @@ body {
   font-family:"Wix Madefor Display", sans-serif;
   background-color: #882b47;
   color: #ffffff;
-  padding-bottom: 60px; /* Para evitar que o rodapé sobreponha o conteúdo */
 }
 
 .nav-bar-color{
@@ -80,12 +114,18 @@ h1 {
 footer {
   width: 100%;
   bottom: 0; /* Posiciona o footer na parte inferior */
-  background-color:#882b47;
+  background-color:#8a0f32;
   text-align: center;
   padding: 20px;
-  display: none;
+  display: block;
 }
   
+.imgfooter{
+  width: 20%;
+  display: flex;
+  align-items: left;
+}
+
 
 /* Espaçamento do conteúdo de acordo com a altura da navbar */
 .container {
@@ -113,7 +153,7 @@ section{
 
 .pagina-inicial{
   margin-top: 10%;
-  padding-bottom: 25%;
+  padding-bottom: 15%;
 }
 
 .pagina-inicial-1{
@@ -132,6 +172,7 @@ section{
   margin-top: 4%;
 
 }
+
 
 
    /* Mulheres Importantes*/
@@ -238,6 +279,42 @@ section{
 
 }
 
+.sectiongrafico{
+  padding: 5%;
+}
+
+.imggrafico{
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+
+}
+.colgrafico:hover{
+  transform: scale(1.40);
+  background-color: #882b47;
+  border-radius: 8px;
+  border: 1px solid#53182a;
+
+}
+
+.colgraf2:hover{
+  transform: scale(1.20);
+  background-color: #882b47;
+  border-radius: 8px;
+  border: 1px solid#53182a;
+
+
+}
+.colgrafico{
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.pgrafico{
+  padding: 2%;
+}
+
+
+
 .contcard{
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -247,7 +324,7 @@ section{
   
 }
 
-.containerdest{
+.containertop{
   padding-top: 4%;
 }
 

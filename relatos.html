@@ -58,7 +58,7 @@
 </header>
 
 <main>
-<section class="pagina-content">
+<section class="pagina-inicial">
     <div class="container mt-5 pt-5">
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Relatos e Pesquisa</h1>
@@ -67,6 +67,12 @@
             o patriarcado afeta mulheres de diferentes gerações e como elas se sentem em relação a isso.</p>
       </div>
     </div>
+    <div class="scroll-down">
+      <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+      </svg></span>
+    </div>
+
   </section>
 
   <section class="pagina-content">
@@ -85,33 +91,39 @@
     </div>
   </section>
 
-  <section class="pagina-content">
+  <section class="pagina-content sectiongrafico">
     <div class="container mt-5 pt-5">
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Gráficos</h1>
         <p class="lead">Fizemos também alguns gráficos baseados nas respostas, eles dão uma visão geral sobre a pesquisa.</p>
-        <div class="container text-center">
+        <div class="container text-center containertop">
+          <div class="row contcard">
+            <div class="col-md-4 colgrafico">
+              <p class="pgrafico">Qual sua idade?</p>
+              <img class="imggrafico" src="img/grafico1.png" alt="">
+            </div>
+            <div class="col-md-4 colgrafico">
+              <p class="pgrafico">Você já ouviu a frase "Isso é coisa de menino" ou "Isso é coisa de menina"?
+              </p>
+              <img class="imggrafico" src="img/grafico2.png" alt="">
+            </div>
+            <div class="col-md-4 colgrafico">
+              <p class="pgrafico">Você já quis um brinquedo, mas não pôde ter por ser considerado de menino?
+              </p>
+              <img class="imggrafico" src="img/grafico3.png" alt="">
+            </div>
           <div class="row">
-            <div class="col-md">
-              <p>Qual sua idade?</p>
-              <img src="" alt="">
-            </div>
-            <div class="col-md">
-              <p>Você já ouviu a frase "Isso é coisa de menino" ou "Isso é coisa de menina"?
+            <div class="col-md-6 colgrafico colgraf2">
+              <p class="pgrafico">Você acredita que as pré definições do que é de tal gênero, do que deve ser de menino ou de menina, afetaram a sua vida de alguma maneira?
               </p>
+              <img class="imggrafico grafico2" src="img/grafico4.png" alt="">
             </div>
-            <div class="col-md">
-              <p>Você já quis um brinquedo, mas não pôde ter por ser considerado de menino?
+            <div class="col-md-6 colgrafico colgraf2 ">
+              <p class="pgrafico">Você acredita que os meninos são desde cedo mais influenciados a seguir em áreas de exatas, ciências e tecnologia do que meninas?
               </p>
+              <img class="imggrafico grafico2" src="img/grafico5.png" alt="">
             </div>
-            <div class="col-md">
-              <p>Você acredita que as pré definições do que é de tal gênero, do que deve ser de menino ou de menina, afetaram a sua vida de alguma maneira?
-              </p>
-            </div>
-            <div class="col-md">
-              <p>Você acredita que os meninos são desde cedo mais influenciados a seguir em áreas de exatas, ciências e tecnologia do que meninas?
-              </p>
-            </div>
+          </div>
           </div>
         </div>
       </div>  
@@ -123,7 +135,7 @@
       <div class="text-center animate-fade-content">
         <h1 class="display-4 animate-fade">Destaques</h1>
         <p class="lead">Selecionamos alguns relatos pessoais que consideramos marcantes e que representam de forma geral as respostas que recebemos durante a pesquisa: </p>
-        <div class="container text-center containerdest">
+        <div class="container text-center containertop">
 
           <div class="row">
             
@@ -165,3 +177,9 @@
   <footer class=" text-white text-center py-3">
     <p>© footer</p>
   </footer>
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+

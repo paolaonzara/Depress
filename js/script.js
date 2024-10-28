@@ -13,16 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("resize", adjustPadding);
   });
   
-document.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('section');
-    
-    sections.forEach(section => {
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-            footer.style.backgroundColor = getComputedStyle(section).backgroundColor;
-        }
-    });
-});
 
 document.addEventListener('scroll', () => {
   const navbar = document.querySelector('.nav-bar-color');
@@ -40,4 +30,10 @@ document.addEventListener('scroll', () => {
 
 
 
-
+// Ícone
+document.querySelector('.scroll-down').addEventListener('click', function() {
+    window.scrollBy({
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+  });
