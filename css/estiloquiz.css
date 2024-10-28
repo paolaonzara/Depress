@@ -205,14 +205,23 @@ h1 {
   background: #350f1b ;
 }
 
-.quiz_box{
-  width: 550px;
+.quiz_box {
+  width: 70%; /* Aumente o tamanho, por exemplo, para 70% da largura da tela */
+  max-width: 800px; /* Largura máxima */
+  min-height: 600px; /* Defina uma altura mínima */
   background: #ffffff;
   border-radius: 5px;
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
 }
+
+@media (max-width: 768px) {
+  .quiz_box {
+    width: 90%; /* Em dispositivos móveis, ocupe 90% da largura */
+  }
+}
+
 
 .quiz_box header{
   position: relative;

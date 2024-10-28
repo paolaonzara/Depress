@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
 document.addEventListener('scroll', () => {
-    const footer = document.querySelector('footer');
     const sections = document.querySelectorAll('section');
     
     sections.forEach(section => {
@@ -38,16 +37,7 @@ document.addEventListener('scroll', () => {
   });
 });
 
-const footer = document.querySelector('footer');
-const content = document.querySelector('body'); // Ou o elemento que contém seu conteúdo principal
 
-function showFooter() {
-    if (window.scrollY + window.innerHeight >= content.offsetHeight) {
-        footer.style.display = 'block';
-    }
-}
-
-window.addEventListener('scroll', showFooter);
 
 
 
