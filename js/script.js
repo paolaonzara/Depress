@@ -52,3 +52,11 @@ document.querySelector('.scroll-down').addEventListener('click', function() {
     mainVideo.load();
     mainVideoTitle.innerText = videoTitle;
   }
+// modal
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})

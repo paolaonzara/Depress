@@ -109,7 +109,7 @@ paleta de cor{
   }
   
 
-@media (max-width: 1288px){
+@media (max-width: 1450px){
   .bi{
     display: none;
   }
@@ -497,14 +497,22 @@ section{
 
 /* como os pais devem lidar com o sexismo */
 
+.containerbalao{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
 
 .balaocoment {
   position: relative;
   background: #f0f0f0;
   border-radius: 10px;
-  padding: 15px;
-  margin: 10px 0;
-  max-width: 80%;
+  padding: 16px;
+  margin: 20px 0;
+  max-width: 100%;
+  transition: transform 0.2s ease-in-out; 
+
 }
 
 .balaocoment::after {
@@ -528,6 +536,151 @@ section{
   color: #555;
 }
 
+.balaocoment:hover{
+  transform: scale(1.20);
+
+}
+
+/* linha do tempo  */
+.timeline{
+  position: relative;
+  margin: 50px auto;
+  padding: 40px 0;
+  box-sizing: border-box;
+} 
+
+.timeline ul{
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li{
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline:before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #f0f0f0;
+}
+
+.timeline ul li:nth-child(odd){
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline ul li:nth-child(even){
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.content{
+  padding-bottom: 20px;
+  transition: transform 0.2s ease-in-out; 
+
+}
+
+.flutuartime:hover{
+  transform: scale(1.09);
+
+}
+
+.timeline ul li:nth-child(odd):before{
+  content: '';
+  position: absolute;
+  top: 24px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background: #ff0a54;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px  #fae0e4a9;
+}
+
+.timeline ul li:nth-child(even):before{
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background: #ff0a54;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fae0e4a9;
+}
+
+.timeline ul li h3{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  color: #fae0e4;
+}
+
+.timeline ul li p{
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.timeline ul li:nth-child(odd) .time{
+  position: absolute;
+  top: 12px;
+  right: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #ff0a54;
+  color: #fae0e4 ;
+  border-radius: 18px;
+  box-shadow: 0 0 0 3px #fae0e4a9;
+} 
+
+.timeline ul li .time h4{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.timeline ul li:nth-child(even) .time{
+  position: absolute;
+  top: 12px;
+  left: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #ff0a54;
+  color: #fae0e4 ;
+  border-radius: 18px;
+  box-shadow: 0 0 0 3px #fae0e4a9;
+} 
+
+
+
+.imglivro{
+  width: 50%;
+  margin-bottom: 2%;
+  border-radius: 8px;
+}
+
+.cormodal{
+    background-color: #ff477e;
+}
+
+.mbotao{
+  background-color: #ff477e;
+  color: white;
+}
+
+.collivro{
+  padding: 3%;
+  
+}
 
 
 /* GALERIA  */
