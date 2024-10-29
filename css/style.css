@@ -679,9 +679,14 @@ section{
 
 .collivro{
   padding: 3%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+
   
 }
 
+.containerlivros{
+  margin-top: 0;
+}
 
 /* GALERIA  */
 
