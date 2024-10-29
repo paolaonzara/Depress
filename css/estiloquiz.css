@@ -111,7 +111,7 @@ h1 {
   z-index: 5;
   opacity: 1;
   pointer-events: auto;
-  transform: translate(-50%, -50%) scale(1);
+  /* transform: translate(-50%, -50%) scale(1); */
 }
 
 
@@ -492,7 +492,6 @@ footer .next_btn:hover{
 
 @media (max-width: 576px) {
   .quiz_box, .result_box, .info_box {
-    padding: 15px;
     font-size: 14px;
   }
 }
@@ -532,3 +531,19 @@ footer .next_btn:hover{
 .text{
   color: black;
 }
+
+
+/* Responsividade */
+
+/* Ajuste dos tamanhos das fontes */
+
+@media (max-width: 768px) {
+  .quiz_box {
+    width: 80%; /* Reduzido de 90% para 80% em telas menores */
+  }
+
+  .quiz_box section .que_text span {
+    font-size: 20px; /* Reduzido de 25px para 20px */
+  }
+}
+

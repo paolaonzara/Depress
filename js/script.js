@@ -37,3 +37,18 @@ document.querySelector('.scroll-down').addEventListener('click', function() {
       behavior: 'smooth'
     });
   });
+
+
+
+  function changeMainVideo(event) {
+    const videoSrc = event.target.parentElement.getAttribute('data-video-src');
+    const videoTitle = event.target.parentElement.getAttribute('data-video-title');
+  
+    const mainVideo = document.getElementById('main-video');
+    const mainVideoSource = document.getElementById('main-video-src');
+    const mainVideoTitle = document.getElementById('main-video-title');
+  
+    mainVideoSource.src = videoSrc;
+    mainVideo.load();
+    mainVideoTitle.innerText = videoTitle;
+  }

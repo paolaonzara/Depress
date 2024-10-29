@@ -528,3 +528,64 @@ section{
   color: #555;
 }
 
+
+
+/* GALERIA  */
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vid {
+  flex: 0 0 32%; /* Ajustar a porcentagem conforme necessário */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.vid:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.vid video {
+  width: 100%;
+  height: auto;
+}
+
+.vid h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .vid {
+    flex: 0 0 48%; /* Ajustar a porcentagem conforme necessário */
+  }
+}
+
+@media (max-width: 576px) {
+  .vid {
+    flex: 0 0 100%;
+  }
+}
+
+.btn-videos {
+  background-color: #eb3b70; /* Cor de fundo do botão */
+  color: #fff; /* Cor da fonte do botão */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; /* Ajuste os valores de padding conforme necessário */
+}
