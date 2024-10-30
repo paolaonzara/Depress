@@ -202,20 +202,28 @@ section{
 
    /* Mulheres Importantes*/
 
-   .profile-card {
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-    margin-bottom: 2rem;
-    transition: transform 0.3s, box-shadow 0.3s; 
-  }
-  
-  .mulheres_foto {
-    width: 100%; /* Ajusta a imagem para 100% do espaço disponível */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Bordas arredondadas */
-  }
+.mulheres-texto{
+  font-size: 1.5rem;
+}
 
+.profile-card {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+  
+.mulheres_foto {
+  width: 100%; 
+  border-radius: 8px; 
+}
+
+@media (max-width: 1584px) {
+  .mulheres-texto{
+    font-size: 1.2rem;
+  }
+}
 
 @media (max-width: 1100px) {
   .mulheres_foto {
@@ -632,66 +640,51 @@ section{
 
 /* GALERIA  */
 
+.video-list-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
 .video-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  justify-content: center; /* Centraliza os itens */
+  margin-bottom: 3%;
 }
 
 .vid {
-  flex: 0 0 32%; /* Ajustar a porcentagem conforme necessário */
-  margin-bottom: 20px;
-  border-radius: 5px;
+  flex: 0 0 32%; /* 3 vídeos por linha em telas maiores */
+  margin-bottom: 4%;
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
 
 .vid:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.vid video {
+.video-thumbnail {
   width: 100%;
-  height: auto;
+  height: 230px; /* Ajuste a altura conforme necessário */
+  border-radius: 5px 5px 0 0; /* Bordas arredondadas apenas na parte superior */
 }
 
-.vid h3 {
-  text-align: center;
-  margin: 10px 0;
+.galeria-texto{
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
   .vid {
-    flex: 0 0 48%; /* Ajustar a porcentagem conforme necessário */
+    flex: 0 0 100%; /* 1 vídeo por linha em telas pequenas */
   }
-}
 
-@media (max-width: 576px) {
-  .vid {
-    flex: 0 0 100%;
+  .video-thumbnail {
+    height: auto; /* Ajuste a altura do vídeo em dispositivos móveis se necessário */
   }
-}
 
-
-.btn-videos {
-  background-color: #eb3b70; /* Cor de fundo do botão */
-  color: #fff; /* Cor da fonte do botão */
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  cursor: pointer; /* Muda o cursor para indicar que é clicável */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px; /* Ajuste os valores de padding conforme necessário */
-}
-
-.video-thumbnail {
-  width: 100%;
-  height: 200px; /* Ajuste a altura conforme necessário */
-  border-radius: 5px 5px 0 0; /* Arredondar apenas o topo */
+  .galeria-texto{
+    font-size: 0.7rem;
+  }
 }
