@@ -305,7 +305,10 @@ section{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
   transition: transform 0.3s, box-shadow 0.3s;
+
 }
+
+
 
 .game-section:hover {
   transform: translateY(-5px);
@@ -671,6 +674,7 @@ section{
     flex: 0 0 100%;
   }
 }
+
 
 .btn-videos {
   background-color: #eb3b70; /* Cor de fundo do botão */

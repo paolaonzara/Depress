@@ -71,25 +71,6 @@ h1 {
   font-weight: bolder;
 }
   
-/* Espaçamento do conteúdo de acordo com a altura da navbar */
-.container {
-  padding-top: calc(100px + 1rem); /* Ajuste baseado no tamanho da navbar */
-}
-  
-/* Responsividade para dispositivos móveis */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  
-  p {
-    font-size: 1rem;
-  }
-  
-  .container {
-    padding-top: calc(100px + 2rem); /* Aumenta o espaçamento em telas menores */
-  }
-}
   
 
 /* Quiz */
@@ -111,7 +92,7 @@ h1 {
   z-index: 5;
   opacity: 1;
   pointer-events: auto;
-  /* transform: translate(-50%, -50%) scale(1); */
+  transform: translate(-50%, -50%) scale(1); 
 }
 
 
@@ -206,20 +187,14 @@ h1 {
 }
 
 .quiz_box {
-  width: 70%; /* Aumente o tamanho, por exemplo, para 70% da largura da tela */
-  max-width: 800px; /* Largura máxima */
-  min-height: 600px; /* Defina uma altura mínima */
+  width: 70%; 
+  max-width: 800px; 
+  min-height: 600px; 
   background: #ffffff;
   border-radius: 5px;
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
-}
-
-@media (max-width: 768px) {
-  .quiz_box {
-    width: 90%; /* Em dispositivos móveis, ocupe 90% da largura */
-  }
 }
 
 
@@ -461,89 +436,6 @@ footer .next_btn:hover{
 }
 
 
-/* Responsividade do Quiz */
-@media (max-width: 768px) {
-  .start_btn button {
-    font-size: 20px;
-    padding: 10px 20px;
-  }
-
-  .info_box, .quiz_box, .result_box {
-    width: 90%; /* Reduz a largura para caber melhor em telas pequenas */
-  }
-
-  .quiz_box section .que_text {
-    font-size: 20px; /* Ajusta o tamanho da fonte */
-  }
-
-  .option_list .option {
-    padding: 10px 15px; /* Reduz o padding das opções */
-  }
-
-  .buttons button {
-    width: 100%; /* Botões ocupam a largura total */
-    margin: 5px 0; /* Espaçamento vertical */
-  }
-
-  footer .next_btn {
-    width: 100%; /* Largura total para o botão de próxima pergunta */
-  }
-}
-
-@media (max-width: 576px) {
-  .quiz_box, .result_box, .info_box {
-    font-size: 14px;
-  }
-}
-
-/* Responsividade para botões em telas menores */
-@media (max-width: 768px) {
-  footer .next_btn {
-    width: auto;
-    font-size: 14px;
-    padding: 8px 16px;
-    margin: 5px;
-  }
-
-  .result_box .buttons button.restart,
-  .result_box .buttons button.quit {
-    width: 100%;
-    font-size: 14px;
-    padding: 10px 0;
-  }
-}
-
-@media (max-width: 480px) {
-  footer .next_btn {
-    font-size: 12px;
-    padding: 6px 10px;
-  }
-
-  .result_box .buttons button.restart,
-  .result_box .buttons button.quit {
-    font-size: 12px;
-    padding: 8px 0;
-    white-space: nowrap; /* Garante que o texto não quebra */
-  }
-}
-
-
 .text{
   color: black;
 }
-
-
-/* Responsividade */
-
-/* Ajuste dos tamanhos das fontes */
-
-@media (max-width: 768px) {
-  .quiz_box {
-    width: 80%; /* Reduzido de 90% para 80% em telas menores */
-  }
-
-  .quiz_box section .que_text span {
-    font-size: 20px; /* Reduzido de 25px para 20px */
-  }
-}
-
