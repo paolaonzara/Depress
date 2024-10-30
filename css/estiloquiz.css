@@ -73,6 +73,8 @@ h1 {
   
   
 
+
+
 /* Quiz */
 
 .start_btn,
@@ -98,7 +100,7 @@ h1 {
 
 
 .start_btn button{
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #5a182c;
   padding: 15px 30px;
@@ -125,7 +127,7 @@ h1 {
   display: flex;
   align-items: center;
   padding: 0 30px;
-  font-size: 20px;
+  /* font-size: 1.5rem; */
   font-weight: 600;
   color: black;
 }
@@ -136,7 +138,7 @@ h1 {
 
 .info_box .info_list .info{
   margin: 5px 0;
-  font-size: 17px;
+  font-size: 1.3rem;
 }
 
 .info_box .info_list .info span{
@@ -161,7 +163,7 @@ h1 {
   border: 1px solid transparent;
   border-radius: 5px;
   color: white;
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -213,7 +215,7 @@ h1 {
 }
 
 .quiz_box header .title {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -231,12 +233,12 @@ h1 {
 
 .quiz_box header .timer .time_text{
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1.4rem;
   user-select: none;
 }
 
 .quiz_box header .timer .timer_sec{
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 500;
   background: rgb(139, 58, 71);
   height: 30px;
@@ -263,7 +265,7 @@ h1 {
 }
 
 .quiz_box section .que_text{
-  font-size: 25px;
+  font-size: 1.7rem;
   font-weight: 600;
 }
 
@@ -301,7 +303,7 @@ section .option_list .option:last-child{
   border: 2px solid transparent;
   border-radius: 50%;
   text-align: center;
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 24px;
   pointer-events: none;
 }
@@ -362,7 +364,7 @@ footer .next_btn{
   display: none;
   height: 40px;
   padding: 0 13px;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-weight: 400;
   border: none;
   outline: none;
@@ -394,20 +396,20 @@ footer .next_btn:hover{
 }
 
 .result_box .icon{
-  font-size: 100px;
+  font-size: 5rem;
   color: #ff477e;
   margin-bottom: 10px;
 }
 
 .result_box .complete_text{
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .result_box .score_text span{
   display: flex;
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -427,7 +429,7 @@ footer .next_btn:hover{
   padding: 0 20px;
   border: none;
   outline: none;
-  font-size: 18px;
+  font-size: 1.3rem;
   font-weight: 500;
   border-radius: 5px;
   border: 1px solid #882b47;
@@ -439,3 +441,85 @@ footer .next_btn:hover{
 .text{
   color: black;
 }
+
+.section{
+  padding: 3%;
+}
+
+@media (max-width: 720px){
+  .quiz_box header .title{
+    font-size: 1rem;
+  }
+  .quiz_box header {
+    height: 50px;
+}
+  .quiz_box section .que_text {
+    font-size: 1.1rem;
+}
+  section .option_list .option{
+    font-size: 0.8rem ;
+}
+}
+
+@media (max-width: 560px){
+  .start_btn button {
+    font-size: 1.4rem;
+    padding: 5% 7%;
+}
+
+  .info_box .info_list .info {
+    margin: 1px 0;
+    font-size: 1rem;
+}
+
+  .info_box .info_list {
+    padding: 10px 20px;
+}
+
+.info_box.activeInfo, .result_box.activeResult {
+
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+ 
+  footer .next_btn {
+    font-size: 1.2rem;
+}
+  .result_box .buttons button {
+    font-size: 1.2rem;
+  }
+
+  .divquiz{
+    padding: auto;
+  }
+}
+
+@media(max-width: 465px){
+
+  .info_box.activeInfo, .result_box.activeResult {
+
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+  
+  .quiz_box.activeQuiz{
+    transform: translate(-50%, -50%) scale(0.8);
+
+  }
+
+  span{
+    font-size: 0.7rem;
+  }
+
+  .quiz_box header .title {
+    font-size: 0.8rem;
+}
+
+  .start_btn, .info_box, .quiz_box, .result_box {
+    top: 50%;
+    left: 58%;
+}
+  footer .next_btn {
+    font-size: 0.8rem;
+}
+}
+

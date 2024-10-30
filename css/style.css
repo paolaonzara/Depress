@@ -57,7 +57,7 @@ paleta de cor{
 /* Espaçamento do conteúdo de acordo com a altura da navbar */
 
 .container {
-  padding-top: calc(100px + 1rem); /* Ajuste baseado no tamanho da navbar */
+  padding-top: 4%; /* Ajuste baseado no tamanho da navbar */
 }
   
 
@@ -149,6 +149,7 @@ footer {
   background-color:#882b47;
   padding: 20px;
   display: block;
+  margin-top: 8%;
 }
 
 .imgfooter{
@@ -179,7 +180,7 @@ section{
 
 .pagina-inicial{
   margin-top: 10%;
-  padding-bottom: 15%;
+  padding-bottom: 25%;
 }
 
 .pagina-inicial-1{
@@ -195,9 +196,69 @@ section{
 }
 
 .pagina-content{
-  margin-top: 4%;
+  background-color: #882b47;
 }
 
+/* home */
+
+.containersobre{
+  padding: 0.5%;
+  padding-top: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  max-width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .colsobre{
+    padding: 1%;
+  }
+}
+.sobreaccor{
+  width: 100%;
+  border: 1px solid #c42854;
+  border-radius: 4px;
+}
+
+.sobrecard{
+  border: 1px solid#53182a;
+  background-color: #5a182cc9;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease-in-out;
+}
+
+.sobrecard:hover{
+  transform: scale(1.04);
+}
+
+.cardsobreb{
+  background-color: #5a182cc9;
+  color: white;
+}
+
+.imgsobre{
+  width: 80%;
+  border-radius:16px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.abotao{
+  background-color: #c42854;
+  color: white;
+}
+
+.abotao:not(.collapsed){
+  background-color: #c50d41;
+  color: white;
+}
+
+.sobrebacc{
+  background-color: #5a182c;
+  color: white;
+}
 
 
    /* Mulheres Importantes*/
@@ -205,6 +266,20 @@ section{
 .mulheres-texto{
   font-size: 1.5rem;
 }
+=======
+.profile-card {
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+  
+.mulheres_foto {
+    width: 100%; /* Ajusta a imagem para 100% do espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
 
 .profile-card {
   padding: 1rem;
@@ -617,23 +692,52 @@ section{
 }
 
 .cormodal{
-    background-color: #ff477e;
+  background-color: #ff477e;
 }
 
 .mbotao{
   background-color: #ff477e;
   color: white;
+  transition: transform 0.2s ease-in-out; 
 }
 
-.collivro{
+.mbotao:hover{
+  transform: scale(1.05);
+  background-color: #ff477e;
+
+}
+
+.colsug{
   padding: 3%;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-
-  
+  transition: transform 0.2s ease-in-out; 
+  background-color: #882b47;
 }
 
-.containerlivros{
-  margin-top: 0;
+.colsug:hover{
+  transform: scale(1.09);
+  border: 1px solid#53182a;
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.containersug{
+  margin-top: 4%;
+  padding-top: 1%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5%;
+}
+
+.containerdes{
+  width: 70%;
+}
+
+.colconte{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100%; /* Defina uma altura para ver o efeito vertical */
+  padding: 5%;
 }
 
 
@@ -688,3 +792,116 @@ section{
     font-size: 0.7rem;
   }
 }
+
+
+@media (max-width: 576px) {
+  .vid {
+    flex: 0 0 100%;
+  }
+}
+
+
+.btn-videos {
+  background-color: #eb3b70; /* Cor de fundo do botão */
+  color: #fff; /* Cor da fonte do botão */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; /* Ajuste os valores de padding conforme necessário */
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 200px; /* Ajuste a altura conforme necessário */
+  border-radius: 5px 5px 0 0; /* Arredondar apenas o topo */
+}
+
+
+
+/* projetos */
+
+.flutuar{
+  float: right;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 0.2%;
+}
+
+.palinha{
+  text-align: left;
+}
+
+
+@media (max-width: 766px){
+  .flutuar{
+    display: none;
+  }
+
+  .palinha{
+    text-align: center;
+  }
+}
+
+.containerdif{
+  margin-top: 8%;
+  margin-bottom: 2%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.botaoproj{
+  width: 40%;
+  padding: 3%;
+  background-color: #b3284f;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.3rem;
+  transition: transform 0.2s ease-in-out; 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+
+}
+
+.botaoproj:hover{
+  transform: scale(1.03);
+  background-color: #b3284f ;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.botaoproj:active{
+  border: none;
+  background-color: #b3284f;
+}
+
+
+/* swe */
+
+.imgswe{
+  width: 60%;
+
+  transition: transform 0.2s ease-in-out;
+
+
+}
+
+.cardswe{
+  background-color: #5a182cc9;
+  color: white;
+  border: 1px solid#53182a;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.2s ease-in-out;
+}
+
+.cardswe:hover, .imgswe:hover{
+  transform: scale(1.05);
+
+}
+
