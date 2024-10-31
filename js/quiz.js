@@ -42,14 +42,14 @@ const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit")
 
 
-restart_quiz.onclick = ()=>{
+restart_quiz.onclick = ()=> {
     quiz_box.classList.add("activeQuiz");
     result_box.classList.remove("activeResult"); 
-    let que_count = 0;
-    let que_numb = 1;
-    let timeValue = 15;
-    let widthValue = 0;
-    let userScore = 0;
+    que_count = 0; // Remove let para não criar uma nova variável
+    que_numb = 1; // Remove let para não criar uma nova variável
+    timeValue = 15; // Remove let para não criar uma nova variável
+    widthValue = 0; // Remove let para não criar uma nova variável
+    userScore = 0; // Remove let para não criar uma nova variável
     showQuestions(que_count); 
     queCounter(que_numb);
     clearInterval(counter);
@@ -57,8 +57,8 @@ restart_quiz.onclick = ()=>{
     clearInterval(counterLine);
     startTimerLine(widthValue);
     next_btn.style.display = "none";
-    // window.location.reload();
 }
+
 
 quit_quiz.onclick = ()=>{
     window.location.reload();

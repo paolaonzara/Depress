@@ -437,6 +437,25 @@ footer .next_btn:hover{
   transition: all 0.3 ease;
 }
 
+.btn-voltar{
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #882b47;
+  border-radius: 5px;
+  border: 1px solid #882b47;
+  cursor: pointer;
+  transition: all 0.3 ease;
+
+}
+
+.btn-voltar:hover{
+  background: #53182a;
+  color:white
+
+}
 
 .text{
   color: black;
@@ -445,6 +464,8 @@ footer .next_btn:hover{
 .section{
   padding: 3%;
 }
+
+
 
 @media (max-width: 720px){
   .quiz_box header .title{

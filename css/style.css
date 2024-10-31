@@ -266,7 +266,7 @@ section{
 .mulheres-texto{
   font-size: 1.5rem;
 }
-=======
+
 .profile-card {
     padding: 1rem;
     border-radius: 10px;
@@ -391,7 +391,11 @@ section{
 
 }
 
+.img-quiz{
+  width: 100%;
+  border-radius: 10px;
 
+}
 
 .game-section:hover {
   transform: translateY(-5px);
