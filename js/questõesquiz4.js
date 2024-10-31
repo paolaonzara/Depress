@@ -1,57 +1,57 @@
 let questions = [
     {
         numb: 1,
-        question: "Qual das seguintes atitudes ajuda a encorajar as crianças a desenvolver interesses autênticos e variados, sem a limitação dos estereótipos de gênero?",
-        answer: "Mostrar apoio a qualquer interesse da criança, independentemente de estar alinhado às expectativas de gênero.",
+        question: "A criação de programas de mentoria para mulheres em STEM é fundamental para:",
+        answer: "Construir redes de apoio, compartilhar experiências e fornecer orientação profissional.",
         options:[
-            "Apontar o que é “para menino” ou “para menina” para ajudá-los a entender o que é socialmente aceito.",
-            "Mostrar apoio a qualquer interesse da criança, independentemente de estar alinhado às expectativas de gênero.",
-            "Ensinar a criança a escolher o que gosta com base no que seus amigos do mesmo gênero gostam.",
-            "Explicar para a criança que certas atividades podem 'não ser para ela' porque são típicas do outro gênero."
+            "Apenas oferecer apoio emocional.",
+            "Garantir a ascensão profissional imediata.",
+            "Isolar as mulheres em grupos homogêneos.",
+            "Construir redes de apoio, compartilhar experiências e fornecer orientação profissional."
         ]
     },
     {
         numb: 2,
-        question: "Em que idade os pais podem começar a oferecer escolhas de atividades e brinquedos que desafiam as normas de gênero?",
-        answer: "Em qualquer idade, desde que os pais ofereçam um ambiente livre de estereótipos e deem apoio às preferências da criança.",
+        question: "Qual é a abordagem ideal para combater estereótipos na divulgação de mulheres em STEM?",
+        answer: "Apresentar mulheres em diferentes papéis e áreas de atuação",
         options:[
-            " Quando a criança demonstrar uma clara preferência pelo que é socialmente aceito para seu gênero.",
-            "Quando a criança começar a frequentar a escola, para ter maior compreensão do certo e errado.",
-            "Somente na adolescência, para garantir que a identidade de gênero esteja firmemente estabelecida.",
-            "Em qualquer idade, desde que os pais ofereçam um ambiente livre de estereótipos e deem apoio às preferências da criança."
+            "Evitar imagens de mulheres para focar apenas no trabalho técnico",
+            "Focar nas dificuldades enfrentadas pelas mulheres",
+            "Apresentar mulheres em diferentes papéis e áreas de atuação",
+            "Mostrar apenas mulheres em cargos de liderança"
         ]
     },
     {
         numb: 3,
-        question: "Ao escolher atividades extracurriculares para seus filhos, o que seria uma atitude construtiva e imparcial?",
-        answer: "Perguntar aos filhos sobre seus interesses pessoais e deixá-los escolher, mesmo que seja uma atividade incomum para seu perfil tradicional.",
+        question: "Como os pais podem apoiar o interesse de suas filhas em STEM?",
+        answer: "Encorajar a exploração de temas de ciência e tecnologia desde cedo,respeitando vontades e interesses da filha",
         options:[
-            "Perguntar aos filhos sobre seus interesses pessoais e deixá-los escolher, mesmo que seja uma atividade incomum para seu perfil tradicional.",
-            "Inscrever automaticamente meninos em esportes e meninas em aulas de dança para evitar conflitos com colegas.",
-            "Seguir as sugestões da escola para que a criança se encaixe melhor nas atividades oferecidas.",
-            "Guiar as crianças para atividades que são tradicionalmente mais populares entre seus amigos."
+            "Reforçar a ideia de que STEM é mais apropriado para meninos.",
+            "Encorajar a exploração de temas de ciência e tecnologia desde cedo,respeitando vontades e interesses da filha",
+            "Ensinar somente matérias tradicionais, como literatura e história",
+            "Todas as alternativas anteriores"
         ]
     },
     {
         numb: 4,
-        question: "Como os pais podem ajudar seus filhos a entender que todas as atividades têm valor e que eles são livres para escolher?",
-        answer: "Expondo a criança a várias atividades e mostrando como todos podem participar e se divertir, sem limitar escolhas.",
+        question: "Qual é uma abordagem eficaz para divulgar projetos de STEM nas escolas?",
+        answer: "Realizar atividades práticas e interativas, como oficinas e experimentos.",
         options:[
-            "Expondo a criança a várias atividades e mostrando como todos podem participar e se divertir, sem limitar escolhas.",
-            "Explicando que algumas atividades são mais adequadas para certas pessoas para evitar confusão social.",
-            "Incentivando atividades que reforcem comportamentos que sejam bem aceitos socialmente.",
-            "Mostrando exemplos de pessoas bem-sucedidas apenas em áreas comumente preferidas por seu perfil."
+            "Ignorar a importância de STEM no currículo escolar.",
+            "Fazer palestras formais e longas, sem interação com o público.",
+            "Realizar atividades práticas e interativas, como oficinas e experimentos.",
+            "Disponibilizar somente conteúdos acadêmicos complexos."
         ]
     },
     {
         numb: 5,
-        question: "Qual seria uma atitude que contribui para que meninos e meninas vejam o cuidado emocional como algo natural para todos?",
-        answer: "Explicar que o cuidado emocional é importante para todos e encorajar a expressão de sentimentos e empatia.",
+        question: "Qual é uma maneira eficaz de incentivar discussões sobre mulheres em STEM em casa?",
+        answer: "Compartilhar histórias inspiradoras de mulheres na área.",
         options:[
-            "Incentivar os meninos a serem mais reservados e as meninas a serem mais expressivas emocionalmente.",
-            "Evitar discussões emocionais para que a criança 'aprenda com o tempo' o que é esperado.",
-            "Explicar que o cuidado emocional é importante para todos e encorajar a expressão de sentimentos e empatia.",
-            "Ensinar que o cuidado emocional é mais necessário para alguns perfis e menos importante para outros."
+            "Evitar falar sobre o tema para não influenciar o interesse da criança.",
+            "Focar apenas nos desafios que elas enfrentam.",
+            "Compartilhar histórias inspiradoras de mulheres na área.",
+            "Mostrar apenas as áreas de STEM com maior salário."
         ]
     },
 
