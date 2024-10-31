@@ -183,21 +183,10 @@ section{
   padding-bottom: 25%;
 }
 
-.pagina-inicial-1{
-  background-color:#e07192; 
-  margin-top: 10%;
-  padding-bottom: 25%;
-}
-
-.pagina-inicial-2{
-  background-color: #882b47;
-  padding-top: 10%;
-  padding-bottom: 25%;
-}
-
 .pagina-content{
   background-color: #882b47;
 }
+
 
 /* home */
 
@@ -230,11 +219,6 @@ section{
 
 .sobrecard:hover{
   transform: scale(1.04);
-}
-
-.cardsobreb{
-  background-color: #5a182cc9;
-  color: white;
 }
 
 .imgsobre{
@@ -331,17 +315,17 @@ section{
     }
   }
   
-  .btn-color {
-    width: 100%; /* Botão ocupa toda a largura */
-    border: none; /* Remove borda padrão */
-    transition: background-color 0.3s;
-  }
+.btn-color {
+  width: 100%; /* Botão ocupa toda a largura */
+  border: none; /* Remove borda padrão */
+  transition: background-color 0.3s;
+}
 
   
-  .progress {
-    width: 100%; /* Defina a largura que você deseja para a barra de progresso */
-    flex-grow: 1; /* Permite que a barra se expanda, se necessário */
-  }
+.progress {
+  width: 100%; /* Defina a largura que você deseja para a barra de progresso */
+  flex-grow: 1; /* Permite que a barra se expanda, se necessário */
+}
   
 .profile-header {
   background-color: #882b47;
@@ -426,9 +410,9 @@ section{
   
 .pnuvem{
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100%; /* Defina uma altura para ver o efeito vertical */
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
   padding: 10%;
 } 
 
@@ -446,32 +430,28 @@ section{
 
 }
 
-.sectiongrafico{
-  padding: 5%;
-}
-
 .imggrafico{
   width: 100%;
+}
+
+.colgrafico{
   transition: transform 0.2s ease-in-out;
 }
 
 .colgrafico:hover{
-  transform: scale(1.40);
-  background-color: #882b47;
-  border-radius: 8px;
-  border: 1px solid#53182a;
-}
-
-.colgraf2:hover{
   transform: scale(1.20);
   background-color: #882b47;
   border-radius: 8px;
   border: 1px solid#53182a;
 }
 
-.colgrafico{
-  transition: transform 0.2s ease-in-out;
+.colgraf2:hover{
+  transform: scale(1.10);
+  background-color: #882b47;
+  border-radius: 8px;
+  border: 1px solid#53182a;
 }
+
 
 .pgrafico{
   padding: 2%;
@@ -738,9 +718,9 @@ section{
 
 .colconte{
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100%; /* Defina uma altura para ver o efeito vertical */
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
   padding: 5%;
 }
 
@@ -902,6 +882,7 @@ section{
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); 
   transition: transform 0.2s ease-in-out;
+  margin-bottom: 5%;
 }
 
 .cardswe:hover, .imgswe:hover{
