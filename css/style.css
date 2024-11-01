@@ -221,6 +221,11 @@ section{
   border-radius: 4px;
 }
 
+.sobreaccb{
+  background-color: #5a182cf8;
+  color: white;
+}
+
 .sobrecard{
   border: 1px solid#53182a;
   background-color: #5a182cc9;
