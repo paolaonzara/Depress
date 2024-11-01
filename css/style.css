@@ -209,11 +209,12 @@ section{
   max-width: 100%;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 960px) {
   .colsobre{
     padding: 1%;
   }
 }
+
 .sobreaccor{
   width: 100%;
   border: 1px solid #c42854;
@@ -250,13 +251,8 @@ section{
   color: white;
 }
 
-.sobrebacc{
-  background-color: #5a182c;
-  color: white;
-}
 
-
-   /* Mulheres Importantes*/
+  /* Mulheres Importantes*/
 
 .mulheres-texto{
   font-size: 1.5rem;
@@ -290,6 +286,35 @@ section{
 }
 
 
+@media (max-width: 1100px) {
+  .mulheres_foto {
+    display: none; /* Oculta a imagem */
+  }
+
+  .rowmulheres {
+    flex-direction: column; /* Muda a direção das colunas para coluna */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+  }
+
+  .col-8 {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+  }
+}
+
+  @media (max-width: 768px) {
+    .profile-card h3 {
+      text-align: center; /* Centraliza o título do card */
+    }
+  
+    .profile-card p {
+      text-align: center; /* Centraliza o texto em parágrafos */
+    }
+    
+    .profile-card {
+      padding: 1rem 0; /* Ajusta o padding verticalmente */
+    }
+  }
   
 .btn-color {
   width: 100%; /* Botão ocupa toda a largura */
@@ -336,48 +361,10 @@ section{
   background-color: #b83d62;
 }
 
-
-
 .btn-color:hover{ 
   background-color: #5a182c;
 }
 
-@media (max-width: 1584px) {
-  .mulheres-texto{
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 1100px) {
-  .mulheres_foto {
-    display: none; /* Oculta a imagem */
-  }
-
-
-  .row {
-    flex-direction: column; /* Muda a direção das colunas para coluna */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
-  }
-
-  .col-8 {
-    text-align: center; /* Centraliza o texto */
-    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
-  }
-}
-
-  @media (max-width: 768px) {
-    .profile-card h3 {
-      text-align: center; /* Centraliza o título do card */
-    }
-  
-    .profile-card p {
-      text-align: center; /* Centraliza o texto em parágrafos */
-    }
-    
-    .profile-card {
-      padding: 1rem 0; /* Ajusta o padding verticalmente */
-    }
-  }
 
 /* Jogos */
 .game-section {
@@ -477,10 +464,6 @@ section{
   border-radius: 8px;
   border: 1px solid#53182a;
   margin-top: 2%;
-}
-
-.containertop{
-  padding-top: 4%;
 }
 
 .carddest{
@@ -680,7 +663,6 @@ section{
   border-radius: 18px;
   box-shadow: 0 0 0 3px #fae0e4a9;
 } 
-
 
 
 .imglivro{
