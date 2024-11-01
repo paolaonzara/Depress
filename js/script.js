@@ -14,20 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
 
-document.addEventListener('scroll', () => {
-  const navbar = document.querySelector('.nav-bar-color');
-  const sections = document.querySelectorAll('section');
-
-  sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      // Verifica se a seção está completamente visível
-      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-          navbar.style.backgroundColor = getComputedStyle(section).backgroundColor;
-      }
-  });
-});
-
-
 
 
 // Ícone
