@@ -34,13 +34,13 @@ let questions = [
     },
     {
         numb: 4,
-        question: "Sua filha adolescente está indeciso sobre o futuro e teme não corresponder às suas expectativas. Como você o orienta?",
+        question: "Sua filha adolescente está indecisa sobre o futuro e teme não corresponder às suas expectativas. Como você orienta ela?",
         answer: "Garante que você a apoiará em qualquer decisão que ela tomar.",
         options:[
-            "Diz para ele que precisa se esforçar mais para alcançar seus objetivos.",
+            "Diz para ela que precisa se esforçar mais para alcançar seus objetivos.",
             "Garante que você a apoiará em qualquer decisão que ela tomar.",
-            "Diz para ele não se preocupar, que tudo se resolverá com o tempo.",
-            "Sugere que ele siga seus passos e escolha uma profissão similar à sua."
+            "Diz para ela não se preocupar, que tudo se resolverá com o tempo.",
+            "Sugere que ela siga seus passos e escolha uma profissão similar à sua."
         ]
     },
     {

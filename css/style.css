@@ -10,6 +10,9 @@ paleta de cor{
 
     color:#ff88ac;
 }
+
+/* geral */
+
 body {
   font-family:"Wix Madefor Display", sans-serif;
   background-color: #882b47;
@@ -20,6 +23,30 @@ h1 {
   color: #ffffff;
   font-weight: bolder;
 }
+
+/* Animação suave no texto de boas-vindas */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* menu */
 
 .navbar-nav .nav-link {
@@ -34,34 +61,6 @@ h1 {
 .nav-bar-color{
     background-color: rgb(136, 43, 71,0.8); /* Cor opaca com leve transparência */
   }
-
-    
-    
-  
-  
-/* Animação suave no texto de boas-vindas */
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
 
 /* Espaçamento do conteúdo de acordo com a altura da navbar */
 
@@ -133,14 +132,6 @@ h1 {
   animation: fadeInUp 2s ease-in-out;
 }
   
-
-
-
-.jogos_titulo{
-  margin-bottom: 10%;
-}
-  
-
 /* Fontes */
 
 .link-color{
@@ -257,6 +248,7 @@ section{
 }
 
 
+
   /* Mulheres Importantes*/
 
 .mulheres-texto{
@@ -290,36 +282,6 @@ section{
   border-radius: 8px; 
 }
 
-
-@media (max-width: 1100px) {
-  .mulheres_foto {
-    display: none; /* Oculta a imagem */
-  }
-
-  .rowmulheres {
-    flex-direction: column; /* Muda a direção das colunas para coluna */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
-  }
-
-  .col-8 {
-    text-align: center; /* Centraliza o texto */
-    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
-  }
-}
-
-  @media (max-width: 768px) {
-    .profile-card h3 {
-      text-align: center; /* Centraliza o título do card */
-    }
-  
-    .profile-card p {
-      text-align: center; /* Centraliza o texto em parágrafos */
-    }
-    
-    .profile-card {
-      padding: 1rem 0; /* Ajusta o padding verticalmente */
-    }
-  }
   
 .btn-color {
   width: 100%; /* Botão ocupa toda a largura */
@@ -369,6 +331,37 @@ section{
 .btn-color:hover{ 
   background-color: #5a182c;
 }
+
+@media (max-width: 1100px) {
+  .mulheres_foto {
+    display: none; /* Oculta a imagem */
+  }
+
+  .rowmulheres {
+    flex-direction: column; /* Muda a direção das colunas para coluna */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+  }
+
+  .col-8 {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+  }
+
+}
+
+  @media (max-width: 768px) {
+    .profile-card h3 {
+      text-align: center; /* Centraliza o título do card */
+    }
+  
+    .profile-card p {
+      text-align: center; /* Centraliza o texto em parágrafos */
+    }
+    
+    .profile-card {
+      padding: 1rem 0; /* Ajusta o padding verticalmente */
+    }
+  } 
 
 
 /* Jogos */
@@ -764,26 +757,6 @@ section{
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
-  .vid {
-    flex: 0 0 100%; /* 1 vídeo por linha em telas pequenas */
-  }
-
-  .video-thumbnail {
-    height: auto; /* Ajuste a altura do vídeo em dispositivos móveis se necessário */
-  }
-
-  .galeria-texto{
-    font-size: 0.7rem;
-  }
-}
-
-
-@media (max-width: 576px) {
-  .vid {
-    flex: 0 0 100%;
-  }
-}
 
 
 .btn-videos {
@@ -806,6 +779,26 @@ section{
   border-radius: 5px 5px 0 0; /* Arredondar apenas o topo */
 }
 
+@media (max-width: 768px) {
+  .vid {
+    flex: 0 0 100%; /* 1 vídeo por linha em telas pequenas */
+  }
+
+  .video-thumbnail {
+    height: auto; /* Ajuste a altura do vídeo em dispositivos móveis se necessário */
+  }
+
+  .galeria-texto{
+    font-size: 0.7rem;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .vid {
+    flex: 0 0 100%;
+  }
+}
 
 
 /* projetos */
@@ -819,17 +812,6 @@ section{
 
 .palinha{
   text-align: left;
-}
-
-
-@media (max-width: 766px){
-  .flutuar{
-    display: none;
-  }
-
-  .palinha{
-    text-align: center;
-  }
 }
 
 .containerdif{
@@ -863,6 +845,16 @@ section{
 .botaoproj:active{
   border: none;
   background-color: #b3284f;
+}
+
+@media (max-width: 766px){
+  .flutuar{
+    display: none;
+  }
+
+  .palinha{
+    text-align: center;
+  }
 }
 
 

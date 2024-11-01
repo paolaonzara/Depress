@@ -40,7 +40,7 @@ let questions = [
             "Priorizar personagens que se encaixem nos estereótipos de gênero.",
             "Buscar materiais que apresentem uma diversidade de personagens e papéis de gênero.",
             "Escolher materiais que enalteçam um certo grupo de pessoas e discrimine outros.",
-            "Evitar temas que possam gerar discussões sobre gênero e sexualidade.",
+            "Evitar temas que possam gerar discussões sobre gênero.",
         ]
     },
     {
