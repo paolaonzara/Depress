@@ -277,12 +277,6 @@ section{
   transition: transform 0.3s, box-shadow 0.3s; 
 }
   
-.mulheres_foto {
-  width: 100%; 
-  border-radius: 8px; 
-}
-
-  
 .btn-color {
   width: 100%; /* Botão ocupa toda a largura */
   border: none; /* Remove borda padrão */
@@ -332,6 +326,11 @@ section{
   background-color: #5a182c;
 }
 
+.mulheres-texto{
+  font-size: 1rem;
+}
+
+
 @media (max-width: 1100px) {
   .mulheres_foto {
     display: none; /* Oculta a imagem */
@@ -362,6 +361,14 @@ section{
       padding: 1rem 0; /* Ajusta o padding verticalmente */
     }
   } 
+
+  @media (min-width: 1452px) {
+    .mulheres-texto{
+      font-size: 1.5rem;
+    } 
+  
+  } 
+
 
 
 /* Jogos */
