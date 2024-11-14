@@ -1,23 +1,10 @@
-paleta de cor{
-    color: #fae0e4;
-    color: #fac5d0;
-    color: #fbb1bd;
-    color: #ff85a1;
-    color: #ff7096;
-    color: #ff5c8a;
-    color: #ff477e;
-    color: #ff0a54;
-
-    color:#ff88ac;
-}
-
 .navbar-nav .nav-link {
     color: #ffffff; /* Cor dos links */
     transition: color 0.3s ease; /* Transição suave para quando passar o mouse */
   }
   
 .navbar-nav .nav-link:hover {
-    color: #ff7ea5; /* Cor dos links quando o mouse estiver sobre eles */
+    color: #00bfe7; /* Cor dos links quando o mouse estiver sobre eles */
   }
   
   
@@ -54,13 +41,13 @@ paleta de cor{
   
 body {
   font-family:"Wix Madefor Display", sans-serif;
-  background-color: #882b47;
+  background-color: #100028;
   color: #ffffff;
   padding-bottom: 60px; /* Para evitar que o rodapé sobreponha o conteúdo */
 }
 
 .nav-bar-color{
-  background-color:#882b47 ;
+  background-color:#00bfe7 ;
   transition: background-color 0.3s ease;
 }
   
@@ -102,7 +89,7 @@ h1 {
 .start_btn button{
   font-size: 1.5rem;
   font-weight: 500;
-  color: #5a182c;
+  color: #00bfe7;
   padding: 15px 30px;
   outline: none;
   border: none;
@@ -143,7 +130,7 @@ h1 {
 
 .info_box .info_list .info span{
   font-weight: 600;
-  color: #5a182c;
+  color: #00bfe7;
 }
 
 .info_box .buttons{
@@ -171,21 +158,21 @@ h1 {
 
 .buttons button.restart{
   color: #ffff;
-  background: #53182a;
+  background: #00bfe7;
 }
 
 .buttons button.restart:hover{
-  background: #350f1b;
+  background: #1b0035;
 }
 
 .buttons button.quit{
-  color: #53182a;
-  border-color: #53182a;
+  color: #00bfe7;
+  border-color: #1b0035;
 }
 
 .buttons button.quit:hover{
   color: #ffff;
-  background: #350f1b ;
+  background: #1b0035 ;
 }
 
 .quiz_box {
@@ -240,14 +227,14 @@ h1 {
 .quiz_box header .timer .timer_sec{
   font-size: 1.5rem;
   font-weight: 500;
-  background: rgb(139, 58, 71);
+  background: rgb(95, 155, 224);
   height: 30px;
   width: 45px;
   color: #fff;
   text-align: center;
   line-height: 30px;
   border-radius: 5px;
-  border: 1px solid rgb(139, 58, 71);
+  border: 1px solid rgb(95, 155, 224);
   user-select: none;
 }
 
@@ -256,7 +243,7 @@ h1 {
   bottom: 0px;
   left: 0px;
   height: 3px;
-  background: #ff5c8a;
+  background: rgb(95, 155, 224);;
 }
 
 .quiz_box section{
@@ -275,8 +262,8 @@ h1 {
 }
 
 section .option_list .option{
-  background: #fae0e4;
-  border: 1px solid #ff7096;
+  background: rgb(95, 155, 224);
+  border: 1px solid rgb(95, 155, 224);
   border-radius: 5px;
   padding: 8px 15px;
   margin-bottom: 15px;
@@ -288,9 +275,9 @@ section .option_list .option{
 }
 
 section .option_list .option:hover{
-  color: #c5355e;
-  background: #fac5d0;
-  border-color: #ff5c8a;
+  color: rgb(191, 215, 243);
+  background: rgb(62, 42, 109);
+  border-color: rgb(95, 155, 224)
 }
 
 section .option_list .option:last-child{
@@ -315,9 +302,9 @@ section .option_list .option:last-child{
 }
 
 .option_list .option .icon.cross{
-  color: rgb(95, 8, 8);
-  background: #ff96ab;
-  border-color: rgb(95, 8, 8);
+  color: rgb(62, 42, 109);
+  background: rgb(95, 155, 224);
+  border-color: rgb(62, 42, 109);
 }
 
 .option_list .option.correct{
@@ -327,9 +314,9 @@ section .option_list .option:last-child{
 }
 
 .option_list .option.incorrect{
-  color: rgb(95, 8, 8);
-  background: #ff96ab;
-  border-color: #ff96ab;
+  color: rgb(255, 255, 255);
+  background: rgb(134, 95, 224);
+  border-color: #1b0035;
 
 }
 
@@ -369,15 +356,15 @@ footer .next_btn{
   border: none;
   outline: none;
   color: #fff;
-  background: #882b47;
+  background: rgb(95, 155, 224);
   border-radius: 5px;
-  border: 1px solid #882b47;
+  border: 1px solid rgb(95, 155, 224);
   cursor: pointer;
   transition: all 0.3 ease;
 }
 
 footer .next_btn:hover{
-  background: #53182a;
+  background: rgb(62, 42, 109);
 }
 
 .result_box{
@@ -397,7 +384,7 @@ footer .next_btn:hover{
 
 .result_box .icon{
   font-size: 5rem;
-  color: #ff477e;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -432,7 +419,7 @@ footer .next_btn:hover{
   font-size: 1.3rem;
   font-weight: 500;
   border-radius: 5px;
-  border: 1px solid #882b47;
+  border: 1px solid rgb(95, 155, 224);
   cursor: pointer;
   transition: all 0.3 ease;
 }
@@ -443,16 +430,16 @@ footer .next_btn:hover{
   border: none;
   outline: none;
   color: #fff;
-  background: #882b47;
+  background: rgb(95, 155, 224);
   border-radius: 5px;
-  border: 1px solid #882b47;
+  border: 1px solid rgb(95, 155, 224);
   cursor: pointer;
   transition: all 0.3 ease;
 
 }
 
 .btn-voltar:hover{
-  background: #53182a;
+  background: rgb(62, 42, 109);
   color:white
 
 }

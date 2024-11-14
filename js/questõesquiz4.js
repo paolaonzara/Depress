@@ -1,59 +1,122 @@
 let questions = [
     {
         numb: 1,
-        question: "A criação de programas de mentoria para mulheres em STEM é fundamental para:",
-        answer: "Construir redes de apoio, compartilhar experiências e fornecer orientação profissional.",
-        options:[
-            "Apenas oferecer apoio emocional.",
-            "Garantir a ascensão profissional imediata.",
-            "Isolar as mulheres em grupos homogêneos.",
-            "Construir redes de apoio, compartilhar experiências e fornecer orientação profissional."
+        question: "Qual dos seguintes sintomas é comum tanto na depressão quanto na ansiedade?",
+        answer: "Diminuição de interesse em atividades sociais",
+        options: [
+            "Aumento de energia",
+            "Perda de apetite",
+            "Diminuição do sono",
+            "Sentimento de euforia",
+            "Diminuição de interesse em atividades sociais"
         ]
     },
     {
         numb: 2,
-        question: "Qual é a abordagem ideal para combater estereótipos na divulgação de mulheres em STEM?",
-        answer: "Apresentar mulheres em diferentes papéis e áreas de atuação",
-        options:[
-            "Evitar imagens de mulheres para focar apenas no trabalho técnico",
-            "Focar nas dificuldades enfrentadas pelas mulheres",
-            "Apresentar mulheres em diferentes papéis e áreas de atuação",
-            "Mostrar apenas mulheres em cargos de liderança"
+        question: "Qual é um dos principais fatores de risco para desenvolver depressão?",
+        answer: "Histórico familiar de transtornos mentais",
+        options: [
+            "Ambiente familiar estável",
+            "Prática constante de atividades físicas",
+            "Histórico familiar de transtornos mentais",
+            "Alimentação equilibrada",
+            "Rotina de sono saudável"
         ]
     },
     {
         numb: 3,
-        question: "Como os pais podem apoiar o interesse de suas filhas em STEM?",
-        answer: "Encorajar a exploração de temas de ciência e tecnologia desde cedo,respeitando vontades e interesses da filha",
-        options:[
-            "Reforçar a ideia de que STEM é mais apropriado para meninos.",
-            "Encorajar a exploração de temas de ciência e tecnologia desde cedo,respeitando vontades e interesses da filha",
-            "Ensinar somente matérias tradicionais, como literatura e história",
-            "Todas as alternativas anteriores"
+        question: "A ansiedade pode ser caracterizada por:",
+        answer: "Preocupações excessivas e dificuldade em controlar o medo",
+        options: [
+            "Pensamentos organizados e relaxados",
+            "Sensação constante de tranquilidade",
+            "Preocupações excessivas e dificuldade em controlar o medo",
+            "Diminuição de pensamentos intrusivos",
+            "Aumento da capacidade de concentração"
         ]
     },
     {
         numb: 4,
-        question: "Qual é uma abordagem eficaz para divulgar projetos de STEM nas escolas?",
-        answer: "Realizar atividades práticas e interativas, como oficinas e experimentos.",
-        options:[
-            "Ignorar a importância de STEM no currículo escolar.",
-            "Fazer palestras formais e longas, sem interação com o público.",
-            "Realizar atividades práticas e interativas, como oficinas e experimentos.",
-            "Disponibilizar somente conteúdos acadêmicos complexos."
+        question: "Qual é um dos principais sintomas da depressão?",
+        answer: "Perda de interesse em atividades prazerosas",
+        options: [
+            "Perda de interesse em atividades prazerosas",
+            "Aumento de energia",
+            "Melhoria da qualidade do sono",
+            "Sensação constante de felicidade",
+            "Motivação para realizar tarefas"
         ]
     },
     {
         numb: 5,
-        question: "Qual é uma maneira eficaz de incentivar discussões sobre mulheres em STEM em casa?",
-        answer: "Compartilhar histórias inspiradoras de mulheres na área.",
-        options:[
-            "Evitar falar sobre o tema para não influenciar o interesse da criança.",
-            "Focar apenas nos desafios que elas enfrentam.",
-            "Compartilhar histórias inspiradoras de mulheres na área.",
-            "Mostrar apenas as áreas de STEM com maior salário."
+        question: "A ansiedade social está relacionada a:",
+        answer: "Medo de situações sociais ou de ser julgado negativamente",
+        options: [
+            "Preocupações excessivas com o futuro",
+            "Medo de situações sociais ou de ser julgado negativamente",
+            "Sentimento de felicidade ao falar em público",
+            "Alta confiança em situações de interação social",
+            "Falta de preocupação com a opinião dos outros"
         ]
     },
-
-
+    {
+        numb: 6,
+        question: "Qual das alternativas NÃO é um sintoma da depressão?",
+        answer: "Aumento de energia e produtividade",
+        options: [
+            "Perda de interesse em atividades prazerosas",
+            "Alteração no apetite",
+            "Aumento de energia e produtividade",
+            "Sentimento de desesperança",
+            "Problemas de sono"
+        ]
+    },
+    {
+        numb: 7,
+        question: "O transtorno de ansiedade generalizada (TAG) é caracterizado por:",
+        answer: "Preocupações excessivas e persistentes com diversas áreas da vida",
+        options: [
+            "Medo extremo de altura",
+            "Ansiedade intensa limitada a situações específicas",
+            "Preocupações excessivas e persistentes com diversas áreas da vida",
+            "Medo de animais",
+            "Sensação de calma constante"
+        ]
+    },
+    {
+        numb: 8,
+        question: "Qual das alternativas a seguir é um tratamento comum para depressão e ansiedade?",
+        answer: "Terapia cognitivo-comportamental (TCC)",
+        options: [
+            "Terapia cognitivo-comportamental (TCC)",
+            "Uso exclusivo de medicamentos sem acompanhamento médico",
+            "Isolamento social",
+            "Afastamento de atividades físicas",
+            "Alimentação desequilibrada"
+        ]
+    },
+    {
+        numb: 9,
+        question: "Pessoas com depressão frequentemente:",
+        answer: "Experienciam sentimentos de vazio e desânimo",
+        options: [
+            "Sentem-se motivadas e energéticas",
+            "Apresentam alto interesse em atividades sociais",
+            "Experienciam sentimentos de vazio e desânimo",
+            "Têm alta autoestima",
+            "Vivem em constante euforia"
+        ]
+    },
+    {
+        numb: 10,
+        question: "Qual das opções pode ser um gatilho para crises de ansiedade?",
+        answer: "Situações sociais, como falar em público",
+        options: [
+            "Situações sociais, como falar em público",
+            "Atividades físicas frequentes",
+            "Dormir adequadamente",
+            "Manter uma rotina relaxante",
+            "Ambientes calmos e familiares"
+        ]
+    }
 ];
