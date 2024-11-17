@@ -143,12 +143,12 @@ function showResultBox(){
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.add("activeResult");
     const scoreText = result_box.querySelector(".score_text");
-    if(userScore > 8){
+    if(userScore > 3){
         let scoreTag = '<span> Parabens! Você acertou <p>'+ userScore+ '</p> de <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 
-    else if(userScore >= 1){
+    else if(userScore > 1){
         let scoreTag = '<span> Parabens! Você acertou <p>'+ userScore+ '</p> de <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
