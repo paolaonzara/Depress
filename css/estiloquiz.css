@@ -693,3 +693,37 @@ footer .next_btn:hover{
 }
 }
 
+/* Transição para todas as telas */
+.info_box, .quiz_box, .result_box {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+/* Ativar quando a página estiver visível */
+.activeInfo {
+  opacity: 1;
+}
+
+.activeQuiz {
+  opacity: 1;
+}
+
+.activeResult {
+  opacity: 1;
+}
+
+/* Para a tela de resultado começar invisível */
+.result_box {
+  opacity: 0;
+}
+
+/* Transição suave para as questões */
+.que_text, .option_list {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+.showQuestion {
+  opacity: 1;
+}
+
